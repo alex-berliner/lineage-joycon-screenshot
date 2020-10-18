@@ -1,0 +1,4 @@
+ui_print("Joycon screenshot");
+package_extract_file("b2s.sh", "/tmp/b2s.sh");
+set_perm(0, 0, 0755, "/tmp/b2s.sh");
+run_program("/tmp/b2s.sh")
